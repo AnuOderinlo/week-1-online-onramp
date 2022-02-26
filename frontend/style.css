@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: rgb(189, 179, 179); */
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.primary-color{
+    color: rgb(226, 134, 12);
+}
+
+
+.header{
+    color: rgb(189, 179, 179);
+    font-weight: bold;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(216, 212, 212, 0.3);
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 28px;
+    color: black;
+}
+
+.image-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* .nav{
+    display: flex;
+} */
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list li{
+    margin: 1em;
+}
+
+.nav-end{
+    margin: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon-cart, .image-profile{
+    margin-left: 1em;
+    display: flex;
+    /* margin: 5em; */
+}
+
+.icon-cart{
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    margin-top: 6em;
+    justify-content: space-around;
+}
+
+
+.section-left{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(160, 212, 14); */
+    /* justify-content: center; */
+    width: 50%;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.section-right{
+    width: 50%;
+    /* background-color: violet; */
+    display: flex;
+    /* justify-content: space-around; */
+    padding:  0 2em;
+    /* align-items: center; */
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.img-container{
+    /* margin: 10em; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* background-color: rgb(55, 71, 223); */
+    
+}
+.img-container img{
+    width: 80%;
+    border-radius: 3%;
+    /* width: 90%; */
+}
+
+.preview-image{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.preview-image-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview{
+    /* display: flex;
+    justify-content: space-between !important;
+    margin-bottom: 20px; */
+    /* width: 33.3%; */
+    /* background-color: slategray; */
+    width: 20%;
+}
+
+.preview img{
+    border-radius: 10px;
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.title{
+    margin-bottom: 1em;
+    font-size: 48px;
+}
+
+.text-container h2, p{
+    margin-bottom: 20px;
+}
+
+.new-price{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.price-container{
+    margin-bottom: 5px ;
+    
+}
+
+.old-price{
+    /* font-size: 28px; */
+    font-weight: bolder;
+    color: rgb(199, 193, 193);
+    text-decoration: line-through;
+}
+
+.percent{
+    background-color: rgb(236, 197, 122);
+    padding: 3px;
+    font-weight: bolder;
+    /* display: inline-block; */
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.btn-container{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+
+.btns{
+    width: 30%;
+
+}
+.btn-add-cart{
+    width: 70%;
+    margin-left: 10px;
+    
+}
+.btn-add-cart button{
+
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 6px  rgba(245, 149, 6, 0.205) ;
+    font-weight: 500;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btns{
+    width: 50%;
+    /* height: 90%; */
+    display: flex;
+    align-items: center;
+}
+
+.btns button{
+    /* width: 50%; */
+    height: 80%;
+    /* display: flex; */
+}
+
+.btns button{
+    cursor: pointer;
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 20%;
+    background-color: rgb(243, 233, 233);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
